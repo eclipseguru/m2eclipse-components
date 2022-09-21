@@ -158,29 +158,7 @@
         <groupId>org.eclipse.tycho</groupId>
         <artifactId>target-platform-configuration</artifactId>
         <configuration>
-          <environments>
-            <environment>
-              <os>*</os>
-              <ws>*</ws>
-              <arch>*</arch>
-            </environment>
-            <!-- https://github.com/eclipse-tycho/tycho/issues/1391 -->
-            <environment>
-              <os>linux</os>
-              <ws>gtk</ws>
-              <arch>x86_64</arch>
-            </environment>
-            <environment>
-              <os>macosx</os>
-              <ws>cocoa</ws>
-              <arch>x86_64</arch>
-            </environment>
-            <environment>
-              <os>macosx</os>
-              <ws>cocoa</ws>
-              <arch>aarch64</arch>
-            </environment>
-          </environments>
+          <!-- https://github.com/eclipse-tycho/tycho/issues/1391 -->
           <targetDefinitionIncludeSource>honor</targetDefinitionIncludeSource>
           <pomDependencies>consider</pomDependencies>
         </configuration>
