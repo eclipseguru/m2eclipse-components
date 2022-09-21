@@ -41,7 +41,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
           branch: gh-pages
-          folder: io.takari.m2e.lifecycle.repository/target/repository
+          folder: releng/p2repository/target/repository
           commit-message: update site release
           single-commit: true
           
