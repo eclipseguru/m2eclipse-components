@@ -1,6 +1,20 @@
-.project/
-.settings/
-target/
+# compile output
 bin/
-.project
-.classpath
+target/
+
+# temp. files
+*~
+*.rej
+*.bak
+.DS_Store
+.Trashes
+*.swp
+*.lock
+pom.versionBackup
+pom.tycho
+.polyglot.*
+.META_INF_MANIFEST.MF
+.META-INF_MANIFEST.MF
+
+# other
+*.patch

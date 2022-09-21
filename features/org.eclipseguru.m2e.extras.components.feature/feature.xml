@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipseguru.m2e.extras.components.feature"
+      label="M2Eclipse Components"
+      version="1.0.0.qualifier"
+      provider-name="Eclipsguru">
+
+   <description>
+      A set of components to integrate Maven plugins with M2E.
+   </description>
+
+   <copyright>
+      Originally Sonytype, forked by community
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.sonatype.m2e.plexus.annotations"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

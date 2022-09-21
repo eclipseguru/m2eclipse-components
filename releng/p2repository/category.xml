@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<feature id="org.eclipseguru.m2e.extras.components.feature" version="0.0.0">
+		<category name="m2e-components" />
+	</feature>
+	<category-def name="m2e-components" label="M2E Components">
+		<description>
+         A set of plug-ins to integrate Maven plug-ins with M2E.
+      </description>
+	</category-def>
+</site>

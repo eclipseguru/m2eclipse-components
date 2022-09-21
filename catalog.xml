@@ -2,14 +2,14 @@
   <catalogItems>
     <catalogItem>
       <categoryId>org.eclipse.m2e.discovery.category.lifecycles</categoryId>
-      <m2e-versions>1.0,1.1</m2e-versions>
-      <description>plexus-annotations</description>
+      <m2e-versions>2.0</m2e-versions>
+      <description>M2E Components for Maven plug-ins</description>
       <groupId>lifecycles</groupId>
-      <id>org.eclipse.m2e.discovery.lifecyclemapping.plexus-annotations</id>
+      <id>org.eclipse.m2e.discovery.lifecyclemapping.m2eclipse-components</id>
       <kind>lifecycles</kind>
       <license>EPL</license>
-      <name>plexus-annotations</name>
-      <provider>Sonatype, Inc.</provider>
+      <name>m2eclipse-components</name>
+      <provider>Community (forked from Sonatype, Inc.)</provider>
       <p2>
         <repositoryUrl>https://repository.sonatype.org/content/repositories/forge-sites/m2e-extras/0.14.0/N/0.14.0.201109270543/</repositoryUrl>
         <iuId>org.sonatype.m2e.plexus.annotations.feature.feature.group</iuId>
@@ -22,4 +22,4 @@
       </overview>
     </catalogItem>
   </catalogItems>
-</catalog>  
+</catalog>
